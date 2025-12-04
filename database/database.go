@@ -13,8 +13,8 @@ const (
 	host     = "localhost"
 	port     = 5432
 	user     = "postgres"
-	password = "123"       // <-- GANTI SESUAI PUNYA KAMU
-	dbname   = "tugas13db" // <-- GANTI NAMA DATABASE KAMU
+	password = "123"
+	dbname   = "bioskop_db"
 )
 
 func ConnectDB() {
