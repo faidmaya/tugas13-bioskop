@@ -13,7 +13,7 @@ func StartServer() *gin.Engine {
 	r.POST("/bioskop", controllers.CreateBioskop)
 
 	// GET ALL
-	r.GET("/bioskop", controllers.GetAllBioskop)
+	r.GET("/bioskop", controllers.GetBioskops)
 
 	// GET BY ID
 	r.GET("/bioskop/:id", controllers.GetBioskopByID)
